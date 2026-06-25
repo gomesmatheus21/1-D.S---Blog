@@ -1,0 +1,9 @@
+:root{
+--azul-da-prússia: #04052eff;
+--crepúsculo-profundo: #140152ff;
+--azul-marinho: #22007cff;
+--azul-marinho-elétrico: #0d00a4ff;
+}
+body{
+    background: var(--azul-marinho);
+}
