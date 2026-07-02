@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fjord+One&display=swap');
+
 :root{
---azul-da-prússia: #04052eff;
---crepúsculo-profundo: #140152ff;
---azul-marinho: #22007cff;
---azul-marinho-elétrico: #0d00a4ff;
+    --platina: #e7ecefff;
+    --azul-crepusculo: #274c77ff;
+    --azul-aço: #6096baff;
+    --azul-gelo: #a3cef1ff;
+    --titulo: "Fjalla One", sans-serif;
+    --texto: "Fjord One", serif;
 }
 body{
     background: var(--azul-marinho);
+    font-family: var(--titulo);
+}
+h1{
+    font-family: var(--titulo);
 }
