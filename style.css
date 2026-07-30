@@ -2,16 +2,19 @@
 
 :root{
     --platina: #e7ecefff;
-    --azul-crepusculo: #274c77ff;
+    --azul-crepúsculo: #274c77ff;
     --azul-aço: #6096baff;
     --azul-gelo: #a3cef1ff;
-    --titulo: "Fjalla One", sans-serif;
-    --texto: "Fjord One", serif;
+    --titulo: 'Fjalla One', serif; 
+    --texto: 'Fjord One', serif;
 }
 body{
-    background: var(--azul-marinho);
-    font-family: var(--titulo);
+    background: var(--azul-gelo);
+    font-family: var(--texto);
 }
-h1{
-    font-family: var(--titulo);
+header{
+    background-color: var(--azul-aço) ;
+    display: flex;
+    justify-content: space-around;
+    color: var(--azul-crepúsculo);
 }
