@@ -36,3 +36,19 @@ header{
     width: 100%;
     height: 120%;
 }
+.conteudo{
+    margin: 30px;
+    border: 2px solid var(--azul-crepúsculo);
+    padding: 30px;
+    text-align: center;
+}
+.conteudo-titulo{
+    font-family: var(--titulo)
+    font-size: 24px;
+    padding-botton: 20px ;
+    color: var(--platina);
+}
+.conteudo-texto{
+    font-family: var(--texto);
+    font-size: 14px;
+}
