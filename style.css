@@ -1,54 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fjord+One&display=swap');
 
-*{
+* {
     margin: 0;
-    padding: 0 ;
-}
-
-
-:root{
+    padding: 0;
+ }
+ 
+ :root{
     --platina: #e7ecefff;
     --azul-crepúsculo: #274c77ff;
     --azul-aço: #6096baff;
     --azul-gelo: #a3cef1ff;
-    --titulo: 'Fjalla One', serif; 
-    --texto: 'Fjord One', serif;
-}
-body{
-    background: var(--azul-gelo);
+    --titulo: 'Fjalla One', serif;
+    --texto: 'Fjord One', serif; 
+ }
+ 
+ body {
+    background: var(--azul-aço);
     font-family: var(--texto);
-}
-header{
-    background-color: var(--azul-aço) ;
+ }
+ 
+ header {
+    background-color: var(--azul-aço);
     display: flex;
     justify-content: space-around;
+    color: var(--azul-gelo);
+    padding: 10px;
+ }
+ .logo{
+    width: 10%;
+    border-radius: 100%;
+ }
+ .menu a:hover {
+    color: var(--platina);
+    transition: 1s;
+ 
+ }
+ 
+ .menu a {
+    text-decoration: none;
     color: var(--azul-crepúsculo);
-}
-.menu{
+    font-weight: bold;
+ }
+ 
+ .menu {
     display: flex;
     list-style: none;
     gap: 20px;
     margin: 10px;
+    color: var(--azul-aço);
     text-transform: uppercase;
-    font-size: 25px;
-}
-.img-capa{
+    font-size: 14px;
+ }
+ 
+ .img-capa {
     width: 100%;
-    height: 120%;
-}
-.conteudo{
+    height: 10%;
+ }
+ 
+ .conteudo {
     margin: 30px;
-    border: 2px solid var(--azul-crepúsculo);
     padding: 30px;
     text-align: center;
-}
-.conteudo-titulo{
-    font-family: var(--titulo)
+ }
+ 
+ .conteudo-titulo {
+    font-family: var(--titulo);
     font-size: 24px;
-    padding-botton: 20px ;
-    color: var(--platina);
-}
-.conteudo-texto{
+    padding-bottom: 25px;
+    color: var(--azul-crepúsculo);
+    text-align: center;
+ }
+ 
+ .conteudo-texto {
     font-family: var(--texto);
     font-size: 14px;
-}
+    text-align: center;
+ }
+ footer{
+    background-color: var(--azul-aço);
+    color: var(--azul-crepúsculo);
+    font-family: var(--titulo);
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+ }
