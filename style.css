@@ -59,6 +59,7 @@
  
  .conteudo {
     margin: 30px;
+    border: 2px dotted var(--azul-crepúsculo);
     padding: 30px;
     text-align: center;
  }
