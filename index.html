@@ -2,52 +2,85 @@
 <html lang="pt-br">
 
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de Astronomia</title>
+    <title>Blog de ciências</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div>
-            <img class="logo" src="/img/logo.png" alt="Logo original">
+            <img class="logo" src="img/logo.png" alt="Representação do átomo">
         </div>
         <div>
             <ul class="menu">
-                <a href="#"></li> Home </li></a>
-                <a href="#"></li> Aulas </li></a>
-                <a href="#"></li> Contatos </li></a>
+                <li>Home</li>
+                <li>Loja</li>
+                <li>Contatos</li>
             </ul>
         </div>
     </header>
     <main>
-        <h2> Astronomia aprofundada</h2>
+        <h2 class="titulo-noticias">As novidades da Ciência</h2>
         <div class="noticias">
             <div class="card">
-            <img src="" alt="">
-            <h3> Ramos da Astronomia: Astrofísica </h3>
-            <p>A astrofísica é o ramo da astronomia que utiliza as leis e os princípios da física e da química para entender como nascem, vivem e morrem os corpos celestes. Em vez de apenas registrar a posição ou o movimento dos astros, ela busca explicar os processos físicos que comandam o cosmos.
-
-                O que a Astrofísica investiga:
-                
-                • Vida das estrelas: Como elas produzem luz e calor através da fusão nuclear e o que acontece quando explodem em supernovas.
-                • Buracos negros: O comportamento da matéria e da luz sob campos gravitacionais extremos.
-                • Matéria e energia escura: Os componentes misteriosos que formam a maior parte do Universo e aceleram sua expansão.
-                • Radiação cósmica: A análise da luz em diferentes frequências (como raio-X, infravermelho e rádio) para desvendar a composição química de galáxias distantes.
-                Em resumo, enquanto a astronomia mapeia o céu, a astrofísica decifra o funcionamento mecânico e energético do Universo.</p>
-            <div class="botoes">
-                <button></button>
-                <button></button>
+                <img src="" alt="">
+                <h3>O que é o Super El niño?</h3>
+                <p> Descubra como o fenômeno do
+                    super el niño está afetando o dia
+                    a dia dos brasileiros
+                </p>
+                <div class="botoes">
+                    <button class="botao-curtida">👍<span>0</span></button>
+                    <button>❤️<span>0</span></button>
+                </div>
+                <a href=""> Saiba mais ... </a>
             </div>
+            <div class="card">
+                <img src="" alt="">
+                <h3>O que é o Super El niño?</h3>
+                <p> Descubra como o fenômeno do
+                    super el niño está afetando o dia
+                    a dia dos brasileiros
+                </p>
+                <div class="botoes">
+                    <button class="botao-curtida">👍<span>0</span></button>
+                    <button>❤️<span>0</span></button>
+                </div>
+                <a href=""> Saiba mais ... </a>
+            </div>
+            <div class="card">
+                <img src="" alt="">
+                <h3>O que é o Super El niño?</h3>
+                <p> Descubra como o fenômeno do
+                    super el niño está afetando o dia
+                    a dia dos brasileiros
+                </p>
+                <div class="botoes">
+                    <button class="botao-curtida">👍<span>0</span></button>
+                    <button>❤️<span>0</span></button>
+                </div>
+                <a href=""> Saiba mais ... </a>
             </div>
         </div>
-
     </main>
+
     <footer>
-        <p>Feito por Matheus Eduardo da Silva Gomes©</p>
+        <p> Feito por Matheus Eduardo da Silva ©</p>
     </footer>
 </body>
-
+<script>
+    const botoes = document.querySelector('.botao-curtida');
+    botoes.forEach(botao => {
+    botao.addEventListener('click', botaoClicado)    
+    });
+    botao.addEventListener('click', botaoClicado);
+    
+    function botaoClicado(){
+        console.log('botaoClicado')
+        let texto = botao.querySelector('span')
+        texto.textContent++
+    }
+</script>
 </html>
